@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+  background-color:RGB(254, 245, 231  );
+}
+
+header {
+    background-color:RGB(254, 245, 231  );
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center; 
+}
+.mapa{
+ text-align: center;
+}
+
+ header img {
+        margin: 30px;
+        padding: 30px ;
+        display: flex;
+        flex-direction: column;
+        
+        width: 470px;
+        height: 400px;
+    }
+
+h2 {
+  color:goldenrod;
+  
+  text-align: center;
+}
+p{
+  color:goldenrod;
+  text-align: center;
+}
+main{
+    column-gap: 30px;
+    display: flex;
+    flex-direction: column; 
+
+    
+}
+  .text_kiara{
+    margin: 10px;
+    padding: 10px;
+   
+  }  
+  .sola{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    
+  }  
+
+  .gil{
+    margin: 10px;
+    padding: 10px;
+   
+  }  
+  .mapa{
+    margin: 10px;
+    padding: 10px; 
+    width: 470px;
+        height: 400px  
+
+  }
+  
+  footer{
+  
+        column-gap: 30px;
+        display: flex;
+        flex-direction: column; 
+    
+        
+      }
+
+  .foot{
+    margin: 10px;
+    padding: 10px;
+  }
+ 
